@@ -8,7 +8,6 @@ import java.io.File;
 
 public class Main {
     private static String root = "src/main/resources/";
-
     public static void main(String[] args) {
         MainFrame frame = new MainFrame();
         Image image = new LocalImageLoader(new File(root)).load();
